@@ -1,6 +1,12 @@
 # Dino Lorenzini
 Looking to major in Networking/CS
 
+This account is mainly for fun work and AP Computer Science project storage
+
+## Projects
+- [KerfCalc - calculate Kerf for a Miter Saw](https://gist.github.com/dinolorenzini/8241bcd854c3098c97fab2574c43f1fb)
+- [ChatBot - Magpie chatbot assignment for AP Computer Science](https://github.com/dinolorenzini/chatbot)
+
 ```java
 public class dinolorenzini {
   public static void main(String[] args) {
@@ -13,8 +19,13 @@ public class dinolorenzini {
   }
   public static String langsAndTech() {
     String[] langsAndTech = {"Java", "Python", "AWS", "DigitalOcean", "Linode", "Linux"};
+    String langsAndTechFull = "";
 
-    return "
+    for (int i = 0; i < langsAndTech.length; i++) {
+      langsAndTechFull.append(langsAndTech[i]);
+    }
+
+    return langsAndTechFull;
   }
 }
 ```
